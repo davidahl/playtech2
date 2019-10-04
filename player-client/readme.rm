@@ -1,0 +1,7 @@
+# PLAYERCLIENT
+
+Playerclient is a node client running in a docker container
+
+## running
+
+In root folder run `./start.sh`
