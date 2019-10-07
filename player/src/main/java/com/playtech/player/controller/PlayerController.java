@@ -28,7 +28,7 @@ public class PlayerController {
     @GetMapping("/players/{id}")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    public Player onePlayer(@PathVariable String id) {
+    public Player onePlayer(@PathVariable Integer id) {
         return playerService.getPlayer(id);
     }
 }

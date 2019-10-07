@@ -29,7 +29,7 @@ public class PlayerService {
         return players;
     }
 
-    public Player getPlayer (String id) {
+    public Player getPlayer (Integer id) {
         for(Player player: players){
             if (id.equals(player.getPlayerId())){
                 return player;
